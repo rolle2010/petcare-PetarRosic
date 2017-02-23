@@ -1,0 +1,75 @@
+/*
+
+
+    font-family: 'Oxygen', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+*/
+
+/* ********************** Style for color Cap on top ********************* */
+.colorCap div{
+    height: 3px;
+}
+.colorCap div:first-of-type{
+    background-color: #f44027; 
+}
+.colorCap div:nth-of-type(2){
+    background-color: #539e22;
+}
+.colorCap div:nth-of-type(3){
+    background-color: #ffbe01;
+}
+/* ********************** Style for upper Nav - with social icon ********************* */
+#upperNav{
+    vertical-align: middle;
+    background-color: #f5f5f5;
+}
+#upperNav p,
+#upperNav p a,
+#upperNav a .fa{
+    margin-bottom: 0;
+    color: #8c8c8c;
+    line-height: 40px;
+}
+#upperNav p a:hover{
+    color: #8c8c8c;
+}
+#upperNav .social a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+#upperNav .social a:hover{
+    background-color: #3b5998;
+}
+#upperNav .social a:hover .fa{
+    color: white;
+}
+/* ********************** Style for middle Nav - brand icon and store info ********************* */
+#middleNav{
+    padding: 28px 0;
+}
+#middleNav > div > div,
+#cart{
+    margin-top: 12px;
+}
+
+#middleNav > div > div > div{
+    margin-left: 10px;
+    margin-right: 45px;
+}
+#middleNav address,
+#middleNav p {
+    margin-bottom: 0;
+}
+/* ********************** Style for main Nav ********************* */
+nav.navbar{
+    background-color: #1377c5;
+    color: white;
+    text-align: center;
+}
+nav ul.nav li{
+    width: 10%;
+}
